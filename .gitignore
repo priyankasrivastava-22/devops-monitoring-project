@@ -2,3 +2,19 @@ logs/
 *.log
 __pycache__/
 *.pyc
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Jenkins temp
+*.tmp
