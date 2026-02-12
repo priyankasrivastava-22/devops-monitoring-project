@@ -30,7 +30,7 @@ pipeline {
                 ${PYTHON} -m venv ${VENV}
                 . ${VENV}/bin/activate
                 pip install --upgrade pip
-                pip install psutil
+                pip install -r requirements.txt
                 '''
             }
         }
